@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "env": {
+    "FLASK_ENV": "production",
+    "FLASK_DEBUG": "false",
+    "RATE_LIMIT_ENABLED": "false",
+    "API_KEY_REQUIRED": "false",
+    "LOG_LEVEL": "WARNING"
+  }
+}
